@@ -1,0 +1,77 @@
+body.cream-bg {
+    background-color: #ebf7f6e2;
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-form {
+    background: #70d5f4;
+    padding: 30px;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.form-icon {
+    font-size: 40px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.form-title {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: grey;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.back-link {
+    display: block;
+    margin-top: 15px;
+    color: grey;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.back-link:hover {
+    color: black;
+}
+
+.error-msg {
+    color: red;
+    margin-bottom: 15px;
+}
+
